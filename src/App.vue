@@ -25,13 +25,6 @@
       <br>
       <button type="submit" class="button blue" id="encode_button">Encode</button>
     </div>
-    <div class="footer">
-        <div class="footer-container">
-          <a href="https://github.com/Meetabeast/CountrieInfo" target="_blank">
-            <p>CountrieInfo only show's a demo<br>Show the Code on Github</p>
-          </a>
-        </div>
-    </div>
   </div>
   
   <div class="toast" id="toast">
@@ -255,21 +248,6 @@ body {
 
 .toast.error {
   background-color: rgb(201, 15, 15);
-}
-
-.footer {
-  padding-top: 10vh;
-  width: 100%;
-  font-family: Arial, sans-serif;
-  font-size: 19px;
-}
-
-.footer-container a {
-  text-decoration: none;
-  color: var(--textColor);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 @keyframes fadein {
